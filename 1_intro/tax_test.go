@@ -22,6 +22,7 @@ func TestCalculateTaxBatch(t *testing.T) {
 		{500.00, 5.00},
 		{1000.00, 10.00},
 		{1500.00, 10.00},
+		{0.00, 0.00},
 	}
 
 	for _, item := range table {
